@@ -16,8 +16,6 @@ but it is a common practice to place Web Server and DB Server close to each othe
 
 In this project, two databases (one being the client and the other being the server) interact with each other.
 
-# Step 1: 
-
 Two EC2 instances are created with Ubuntu 20.04 LTS. One instance as a client and the other acts as a sever. 
 What differentialtes the client and the server are the installations on each of the instance. Upon logging in to each of the instances via SSH, we install mysql client on one instance and my-sql server on the other. 
 
